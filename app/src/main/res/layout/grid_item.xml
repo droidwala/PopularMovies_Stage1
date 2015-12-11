@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_item_image_height"
+        android:scaleType="centerCrop"
+        android:transitionName="POSTER"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_item_image_height"
+        android:layout_gravity="left|top"
+        android:background="@drawable/scrim_gradient"/>
+    <com.example.punit.popularmovies.Fonts.CustomBoldTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingLeft="@dimen/grid_item_title_margin_left_right"
+        android:paddingRight="@dimen/grid_item_title_margin_left_right"
+        android:paddingTop="@dimen/grid_item_title_margin_top_bottom"
+        android:paddingBottom="@dimen/grid_item_title_margin_top_bottom"/>
+
+</FrameLayout>
+

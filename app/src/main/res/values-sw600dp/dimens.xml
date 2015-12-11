@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">400dp</dimen>
+    <dimen name="cast_fragment_height">400dp</dimen>
+    <dimen name="cast_fragment_margin_right">16dp</dimen>
+    <dimen name="cast_fragment_margin_top">10dp</dimen>
+    <dimen name="cast_image_width_height">300dp</dimen>
+    <dimen name="cast_image_margin_left_right">15dp</dimen>
+    <dimen name="cast_name_txt_height">80dp</dimen>
+</resources>

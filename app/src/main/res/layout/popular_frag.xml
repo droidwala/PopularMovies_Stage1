@@ -1,0 +1,35 @@
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content_frame"
+        android:layout_margin="8dp">
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/gridview_vertical_spacing"
+        android:horizontalSpacing="@dimen/gridview_horizontal_spacing"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:scrollbars="none"
+        android:background="?attr/selectableItemBackground"/>
+    <ProgressBar
+        android:layout_width="@dimen/progress_bar_width_height"
+        android:layout_height="@dimen/progress_bar_width_height"
+        android:id="@+id/progressBar"
+        android:max="500"
+        android:progress="0"
+        android:layout_gravity="center"
+        android:progressDrawable="@drawable/circ_prog"
+        android:visibility="gone"/>
+    <include
+         layout="@layout/no_internet_layout"
+         android:id="@+id/rl_internet"/>
+    <include
+         layout="@layout/volley_error_msg"
+         android:id="@+id/rl_volley"/>
+</FrameLayout>
+

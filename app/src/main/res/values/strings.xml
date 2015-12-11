@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_header">POPULAR MOVIES</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="action_movies">ACTION</string>
+    <string name="adventure_movies">ADVENTURE</string>
+    <string name="animation_movies">ANIMATION</string>
+    <string name="comedy_movies">COMEDY</string>
+    <string name="crime_movies">CRIME</string>
+    <string name="drama_movies">DRAMA</string>
+    <string name="horror_movies">HORROR</string>
+    <string name="scifi_movies">SCI-FI</string>
+    <string name="family_movies">FAMILY</string>
+    <string name="fantasy_movies">FANTASY</string>
+    <string name="api_key"></string>
+    <string name="sort_by_header">SORT BY</string>
+    <string name="radio_btn_popular">POPULARITY</string>
+    <string name="radio_btn_rating">RATING</string>
+    <string name="apply_filter_btn">APPLY FILTERS</string>
+    <string name="image_transition_name">POSTER</string>
+    <string name="film_plot">PLOT</string>
+    <string name="film_cast">CAST</string>
+    <string name="connection_lost">CONNECTION LOST!!</string>
+    <string name="check_internet_settings">Please check Internet Settings</string>
+    <string name="OR">OR</string>
+    <string name="retry_api">Retry</string>
+</resources>

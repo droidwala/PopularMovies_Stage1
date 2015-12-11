@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/grp1">
+        <item android:id="@+id/upcoming"
+              android:title="UPCOMING MOVIES"/>
+        <item android:id="@+id/navigation_subheader"
+              android:title="CATEGORIES">
+              <menu>
+                  <item android:id="@+id/action"
+                        android:title="@string/action_movies"
+                      />
+                  <item android:id="@+id/adventure"
+                        android:title="@string/adventure_movies"
+                      />
+                  <item android:id="@+id/animation"
+                        android:title="@string/animation_movies"
+                      />
+                  <item android:id="@+id/comedy"
+                      android:title="@string/comedy_movies"
+                      />
+                  <item android:id="@+id/crime"
+                      android:title="@string/crime_movies"
+                      />
+                  <item android:id="@+id/drama"
+                      android:title="@string/drama_movies"
+                      />
+                  <item android:id="@+id/horror"
+                      android:title="@string/horror_movies"
+                      />
+                  <item android:id="@+id/scifi"
+                      android:title="@string/scifi_movies"
+                      />
+                  <item android:id="@+id/family"
+                      android:title="@string/family_movies"/>
+                  <item android:id="@+id/fantasy"
+                      android:title="@string/fantasy_movies"/>
+
+              </menu>
+        </item>
+    </group>
+
+
+</menu>

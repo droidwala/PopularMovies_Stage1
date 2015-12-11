@@ -1,0 +1,20 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/vpager"
+        android:layout_gravity="left|top"/>
+    <ProgressBar
+        android:layout_width="@dimen/progress_bar_width_height"
+        android:layout_height="@dimen/progress_bar_width_height"
+        android:id="@+id/progressBar"
+        android:max="500"
+        android:progress="0"
+        android:layout_gravity="center"
+        android:progressDrawable="@drawable/circ_prog"
+        android:visibility="gone"/>
+</FrameLayout>

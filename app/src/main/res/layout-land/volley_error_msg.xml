@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="gone"
+    android:id="@+id/rl_volley">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sun_2"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sun_image"
+        />
+    <com.example.punit.popularmovies.Fonts.CustomNormalTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/volley_error_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sun_image"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/retry_volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/volley_error_msg"
+        style="@style/RetryButtonStyle"
+        android:text="@string/retry_api"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
